@@ -9,13 +9,13 @@ The name is inspired by the `whoami` coreutils package.
 You can run the MCP server using NPM:
 
 ```shell
-npx mcp-who-am-i
+npx @hyprmcp/mcp-who-am-i@latest
 ```
 
 Or you can use Docker:
 
 ```shell
-docker run --rm -p 3000:3000 mcp-who-am-i
+docker run --rm -p 3000:3000 ghcr.io/hyprmcp/mcp-who-am-i
 ```
 
 ## Development

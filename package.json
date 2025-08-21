@@ -1,9 +1,16 @@
 {
-  "name": "mcp-who-am-i",
+  "name": "@hyprmcp/mcp-who-am-i",
   "version": "0.0.0",
   "description": "",
   "license": "MIT",
-  "author": "",
+  "author": "Glasskube Inc.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hyprmcp/mcp-who-am-i"
+  },
+  "bugs": {
+    "url": "https://github.com/hyprmcp/mcp-who-am-i/issues"
+  },
   "type": "module",
   "scripts": {
     "build": "tsc && shx chmod +x dist/*.js",
