@@ -1,4 +1,4 @@
-# mcp-who-am-i
+# MCP, Who am I?
 
 This project is a Model Context Protocol (MCP) server that reports auth information about the current request.
 It parses the Authorization header as JWT and reports some decoded payload items from the JWT.

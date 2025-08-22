@@ -1,6 +1,9 @@
 import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { RequestHandlerExtra } from "@modelcontextprotocol/sdk/shared/protocol.js";
-import { ServerNotification, ServerRequest } from "@modelcontextprotocol/sdk/types.js";
+import {
+  ServerNotification,
+  ServerRequest,
+} from "@modelcontextprotocol/sdk/types.js";
 import { JWTPayload } from "jose";
 
 export function newServer() {
@@ -11,16 +14,25 @@ export function newServer() {
 
   server.registerTool(
     "who-am-i",
-    { description: "This tools returns information about the authentication provided with the MCP request." },
+    {
+      description:
+        "This tools returns information about the authentication provided with the MCP request. " +
+        "It answers questions like: 'Who am I?', 'Am I authenticated?' or 'What is my username'",
+    },
     (args) => {
       // This is a hack because the SDK provides wrong types for tools without parameters
-      const extra = args as RequestHandlerExtra<ServerRequest, ServerNotification>;
+      const extra = args as RequestHandlerExtra<
+        ServerRequest,
+        ServerNotification
+      >;
       const messageParts: string[] = [];
 
       if (!extra.authInfo) {
         messageParts.push("The request is not authenticated");
       } else {
-        messageParts.push("The following authentication has been provided via JWT:");
+        messageParts.push(
+          "The following authentication has been provided via JWT:",
+        );
 
         if (!extra.authInfo.extra) {
           messageParts.push("- No additional authentication info available");
@@ -57,19 +69,23 @@ export function newServer() {
     },
   );
 
-  server.registerPrompt("who-am-i", { description: "Get auth information about the current MCP request" }, () => {
-    return {
-      messages: [
-        {
-          role: "user",
-          content: {
-            type: "text",
-            text: "Show information about the authentication state of the current who-am-i MCP server config",
+  server.registerPrompt(
+    "who-am-i",
+    { description: "Get auth information about the current MCP request" },
+    () => {
+      return {
+        messages: [
+          {
+            role: "user",
+            content: {
+              type: "text",
+              text: "Show information about the authentication state of the current who-am-i MCP server config",
+            },
           },
-        },
-      ],
-    };
-  });
+        ],
+      };
+    },
+  );
 
   return server;
 }
