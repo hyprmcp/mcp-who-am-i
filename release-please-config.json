@@ -1,12 +1,13 @@
 {
   "packages": {
     ".": {
-      "initial-version": "0.0.1",
+      "initial-version": "0.1.0",
       "changelog-path": "CHANGELOG.md",
       "release-type": "node",
       "prerelease": false,
       "bump-minor-pre-major": true,
       "bump-patch-for-minor-pre-major": false,
+      "include-component-in-tag": false,
       "draft": false,
       "extra-files": ["src/server.ts"],
       "changelog-sections": [
