@@ -14,7 +14,10 @@ await newServer().connect(transport);
 
 const app = express();
 app.use(express.json(), jwtMiddleware());
-app.post("/mcp", async (req, res) => await transport.handleRequest(req, res, req.body));
+app.post(
+  "/mcp",
+  async (req, res) => await transport.handleRequest(req, res, req.body),
+);
 app.get("/mcp", async (req, res) => await transport.handleRequest(req, res));
 app.delete("/mcp", (_, res) => res.sendStatus(405));
 
