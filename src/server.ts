@@ -9,7 +9,7 @@ import { JWTPayload } from "jose";
 export function newServer() {
   const server = new McpServer({
     name: "mcp-who-am-i",
-    version: "1.0.0",
+    version: "0.0.0", // x-release-please-version
   });
 
   server.registerTool(
