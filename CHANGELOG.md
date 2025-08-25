@@ -1,5 +1,21 @@
 # Changelog
 
+## [0.1.1](https://github.com/hyprmcp/mcp-who-am-i/compare/v0.1.0...v0.1.1) (2025-08-25)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @modelcontextprotocol/sdk to v1.17.4 ([#4](https://github.com/hyprmcp/mcp-who-am-i/issues/4)) ([b877f3f](https://github.com/hyprmcp/mcp-who-am-i/commit/b877f3fcdec7d8e813af447fdbf46c818e070c58))
+* **deps:** update dependency jose to v6.0.13 ([#5](https://github.com/hyprmcp/mcp-who-am-i/issues/5)) ([fa47dfd](https://github.com/hyprmcp/mcp-who-am-i/commit/fa47dfd7ed88fe4a78ad7ddde5a008c9aa8187d3))
+
+
+### Other
+
+* **deps:** update actions/checkout action to v5 ([#14](https://github.com/hyprmcp/mcp-who-am-i/issues/14)) ([b1246e5](https://github.com/hyprmcp/mcp-who-am-i/commit/b1246e5c9c151221c9fe7c304cf3d5d4184aca15))
+* **deps:** update docker/login-action action to v3.5.0 ([#11](https://github.com/hyprmcp/mcp-who-am-i/issues/11)) ([d2a000b](https://github.com/hyprmcp/mcp-who-am-i/commit/d2a000b5e6c77f5f5499b75bb8885cbc39d2dc1f))
+* **deps:** update docker/metadata-action action to v5.8.0 ([#12](https://github.com/hyprmcp/mcp-who-am-i/issues/12)) ([b7b39e8](https://github.com/hyprmcp/mcp-who-am-i/commit/b7b39e888cef15d01a4c904ca5c13110547a09cf))
+* **deps:** update googleapis/release-please-action action to v4.3.0 ([#13](https://github.com/hyprmcp/mcp-who-am-i/issues/13)) ([ed910b4](https://github.com/hyprmcp/mcp-who-am-i/commit/ed910b4d524b66f5050fd0bd6d1c54675ccb171a))
+
 ## 0.1.0 (2025-08-22)
 
 
