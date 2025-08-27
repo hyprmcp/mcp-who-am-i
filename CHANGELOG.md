@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.2](https://github.com/hyprmcp/mcp-who-am-i/compare/v0.1.1...v0.1.2) (2025-08-27)
+
+
+### Bug Fixes
+
+* use correct parsing for JWT exp field ([#16](https://github.com/hyprmcp/mcp-who-am-i/issues/16)) ([0e32ef7](https://github.com/hyprmcp/mcp-who-am-i/commit/0e32ef76a074ce11e99756ee3cb1f7d19bd6d48e))
+
 ## [0.1.1](https://github.com/hyprmcp/mcp-who-am-i/compare/v0.1.0...v0.1.1) (2025-08-25)
 
 
