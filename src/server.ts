@@ -53,7 +53,9 @@ export function newServer() {
           }
 
           if (token.exp) {
-            messageParts.push(`- **Expiration**: ${new Date(token.exp)}`);
+            messageParts.push(
+              `- **Expiration**: ${new Date(token.exp * 1000)}`,
+            );
           }
         }
       }
