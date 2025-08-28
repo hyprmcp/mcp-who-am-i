@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.3](https://github.com/hyprmcp/mcp-who-am-i/compare/v0.1.2...v0.1.3) (2025-08-28)
+
+
+### Bug Fixes
+
+* **deps:** update dependency jose to v6.1.0 ([#18](https://github.com/hyprmcp/mcp-who-am-i/issues/18)) ([13a758b](https://github.com/hyprmcp/mcp-who-am-i/commit/13a758b64af66ceccf228323f627a53672417529))
+
 ## [0.1.2](https://github.com/hyprmcp/mcp-who-am-i/compare/v0.1.1...v0.1.2) (2025-08-27)
 
 
