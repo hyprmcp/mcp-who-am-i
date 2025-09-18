@@ -1,5 +1,27 @@
 # Changelog
 
+## [0.1.3](https://github.com/hyprmcp/mcp-who-am-i/compare/v0.1.2...v0.1.3) (2025-09-18)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @modelcontextprotocol/sdk to v1.18.0 ([#23](https://github.com/hyprmcp/mcp-who-am-i/issues/23)) ([27b11d8](https://github.com/hyprmcp/mcp-who-am-i/commit/27b11d8f125e416f11e33e00dbb32c7f0d95279c))
+* **deps:** update dependency jose to v6.1.0 ([#18](https://github.com/hyprmcp/mcp-who-am-i/issues/18)) ([13a758b](https://github.com/hyprmcp/mcp-who-am-i/commit/13a758b64af66ceccf228323f627a53672417529))
+
+
+### Other
+
+* **deps:** update actions/setup-node action to v5 ([#24](https://github.com/hyprmcp/mcp-who-am-i/issues/24)) ([d0425b6](https://github.com/hyprmcp/mcp-who-am-i/commit/d0425b6f784ff5fd311716658aeecffff4331caf))
+* **deps:** update dependency @types/node to v24.5.1 ([#21](https://github.com/hyprmcp/mcp-who-am-i/issues/21)) ([f138ade](https://github.com/hyprmcp/mcp-who-am-i/commit/f138ade2bddc269c65dd1322d5fdbe3ace688e5a))
+* **deps:** update dependency @types/node to v24.5.2 ([#26](https://github.com/hyprmcp/mcp-who-am-i/issues/26)) ([7db22aa](https://github.com/hyprmcp/mcp-who-am-i/commit/7db22aa759da8613f31a03af7879f96d6834c1f2))
+* **deps:** update dependency pnpm to v10.16.1 ([#22](https://github.com/hyprmcp/mcp-who-am-i/issues/22)) ([3f164ff](https://github.com/hyprmcp/mcp-who-am-i/commit/3f164ff7e4b723211125376f3ceda6b3a7d68602))
+* **deps:** update dependency pnpm to v10.17.0 ([#25](https://github.com/hyprmcp/mcp-who-am-i/issues/25)) ([b9528a5](https://github.com/hyprmcp/mcp-who-am-i/commit/b9528a5f027dbeb49f22c6dc144af7853d2edcfb))
+
+
+### Docs
+
+* add mcp server installations instructions ([d55ce76](https://github.com/hyprmcp/mcp-who-am-i/commit/d55ce76bcb1f808805ff4329e782c74cce24606b))
+
 ## [0.1.2](https://github.com/hyprmcp/mcp-who-am-i/compare/v0.1.1...v0.1.2) (2025-08-27)
 
 
