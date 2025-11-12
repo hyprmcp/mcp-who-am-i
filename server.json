@@ -1,0 +1,29 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-07-09/server.schema.json",
+  "name": "io.github.hyprmcp/mcp-who-am-i",
+  "description": "An MCP server that provides information about the authentication provided with the MCP request",
+  "status": "active",
+  "repository": {
+    "url": "https://github.com/hyprmcp/mcp-who-am-i",
+    "source": "github"
+  },
+  "version": "0.1.2",
+  "packages": [
+    {
+      "registry_type": "npm",
+      "registry_base_url": "https://registry.npmjs.org",
+      "identifier": "@hyprmcp/mcp-who-am-i",
+      "version": "0.1.2"
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://demo.hyprmcp.cloud/who-am-i/mcp"
+    },
+    {
+      "type": "streamable-http",
+      "url": "https://demo.hyprmcp.cloud/who-am-i-public/mcp"
+    }
+  ]
+}
